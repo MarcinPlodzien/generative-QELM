@@ -1,0 +1,20 @@
+{
+  "target": "four_lobes",
+  "model": "shot_random5",
+  "restart": 0,
+  "rng_seed": 12000,
+  "initialization": "Generic Gaussian directions; matched target mean/covariance only",
+  "initial_loss": 0.14411880854381864,
+  "final_loss": 0.00017305434653513572,
+  "iterations": 1409,
+  "evaluations": 1415,
+  "solver_success": true,
+  "solver_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+  "gradient_inf": 9.557609070111529e-07,
+  "seconds": 18.26984214782715,
+  "feature_file": "results/features/D2_shot_random5_4096.npz",
+  "feature_sha256": "ec1d33bdd5009a31c082671c041f55cae89fa4a8cb85516c4b8bed2c0b0a96aa",
+  "target_sha256": "bf7512f15ad1c46dfde1685ba9562c4cc997f687c07d160f9cb1a27ac68c9486",
+  "source_sha256": "fcb19cdc96307c194486994d63e8db2b1d79e15b09d6b5f097548590236f13ac",
+  "training_latent_points": 4096
+}

@@ -1,0 +1,53 @@
+{
+  "selected_heads": 226,
+  "candidate_heads": 678,
+  "converged_selected_heads": 219,
+  "iteration_limit_settings": [
+    "two_rings/expectation_cluster",
+    "two_rings/shot_random0",
+    "diagonal_cross/expectation_cluster",
+    "diagonal_cross/expectation_random0",
+    "three_stripes/expectation_cluster",
+    "three_stripes/shot_random4",
+    "three_stripes/shot_cluster"
+  ],
+  "refined_2d_gap_min": 1.0034936695192451,
+  "refined_2d_gap_max": 1.1593474874184173,
+  "coarse_grid_2d_gap_min": 2.2217587317308105,
+  "coarse_grid_2d_gap_max": 26.91917367834227,
+  "N": 12,
+  "L_random": 4,
+  "M": 298,
+  "target_nodes": 4096,
+  "grid_2d": [
+    64,
+    64
+  ],
+  "head_starts": 3,
+  "expectation_training_points": 32768,
+  "expectation_evaluation_points": 131072,
+  "average_evaluation_points_per_output_node": 32,
+  "display_histogram_bins": 128,
+  "random_circuit_labels": {
+    "1": 0,
+    "2": 1,
+    "3": 2,
+    "4": 3,
+    "5": 4,
+    "6": 5,
+    "7": 6,
+    "8": 7,
+    "9": 8,
+    "10": 9
+  },
+  "main_circuit_seed": 1,
+  "kernel_sigmas": [
+    0.2,
+    0.5,
+    1.0,
+    2.0,
+    4.0
+  ],
+  "training_directions": 32,
+  "additional_evaluation_directions": 64
+}

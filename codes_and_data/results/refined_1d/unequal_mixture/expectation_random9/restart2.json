@@ -1,0 +1,20 @@
+{
+  "target": "unequal_mixture",
+  "model": "expectation_random9",
+  "restart": 2,
+  "rng_seed": 12002,
+  "initialization": "Generic Gaussian directions; matched target mean/covariance only",
+  "initial_loss": 0.34813894938835527,
+  "final_loss": 0.022278185085819538,
+  "iterations": 387,
+  "evaluations": 420,
+  "solver_success": true,
+  "solver_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+  "gradient_inf": 1.2666103258465285e-06,
+  "seconds": 3.5009334087371826,
+  "feature_file": "results/features/D1_expectation_random9_32768.npz",
+  "feature_sha256": "92b5dcc3abc5b8cf79277b97e05ee1f23f4d8d954d41dbd15cb2f5aad186cd1b",
+  "target_sha256": "c18dba981c3de874cb942989edcb8037f4426e3a4312e8aad38070be6ad45195",
+  "source_sha256": "fcb19cdc96307c194486994d63e8db2b1d79e15b09d6b5f097548590236f13ac",
+  "training_latent_points": 32768
+}

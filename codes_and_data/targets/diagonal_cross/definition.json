@@ -1,0 +1,46 @@
+{
+  "target": "diagonal_cross",
+  "N": 12,
+  "node_count": 4096,
+  "coordinate_offset": [
+    0.0,
+    0.0
+  ],
+  "coordinate_scale": [
+    1.0,
+    1.0
+  ],
+  "convention": "normalized density at fixed nodes; nearest-node assignment, midpoint ties upward",
+  "original_training_target_sha256": "85488f6148c740b12881f62cba1d7ed9094b2ec92c31527fcb97c8ef37d4200e",
+  "current_target_sha256": "5200311bf60510f217f3730252fc173379c0ea519b29030b96841e13347af35b",
+  "coordinates_sha256": "aa7ba94166b5496912c477d116175ac204ca86a0a80abb65034ebcdfb758091e",
+  "probabilities_sha256": "2c2d36d466f526a0ae7201c87d5b1a4d089517f110cc4b992d2491d0edfe6381",
+  "definition": {
+    "N": 12,
+    "shape": [
+      64,
+      64
+    ],
+    "bounds": [
+      [
+        -3,
+        3
+      ],
+      [
+        -3,
+        3
+      ]
+    ],
+    "ordering": "C order; index=m_u*64+m_v, MSB first",
+    "definition": "Normalized density evaluated at nodes using manuscript continuous geometry",
+    "source_builder": "cross"
+  },
+  "geometry": {
+    "lines": [
+      "y1=y2",
+      "y1=-y2"
+    ],
+    "ridge_width": 0.28,
+    "distance": "Euclidean perpendicular distance"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "target": "unequal_mixture",
+  "N": 12,
+  "node_count": 4096,
+  "coordinate_offset": [
+    0.0
+  ],
+  "coordinate_scale": [
+    1.0
+  ],
+  "convention": "normalized density at fixed nodes; nearest-node assignment, midpoint ties upward",
+  "original_training_target_sha256": "c18dba981c3de874cb942989edcb8037f4426e3a4312e8aad38070be6ad45195",
+  "current_target_sha256": "c18dba981c3de874cb942989edcb8037f4426e3a4312e8aad38070be6ad45195",
+  "coordinates_sha256": "efb4afec5748f389fd2cbbfb6d9d22a8c51ed77080d88042f314be3506f55fee",
+  "probabilities_sha256": "91c8c36cb8203c20485545c9410855a8f8a5a63fa4e542d14059ce58aca708d4",
+  "definition": {
+    "target": "unequal_mixture",
+    "N": 12,
+    "nodes": 4096,
+    "bounds": [
+      -5.0,
+      5.0
+    ],
+    "component_weights": [
+      0.2,
+      0.8
+    ],
+    "means": [
+      -3.0,
+      1.0
+    ],
+    "stds": [
+      0.1,
+      1.2
+    ],
+    "training_coordinate": "y itself; no rescaling",
+    "normalization": "Separate normalized Gaussian node densities, then weighted mixture; not CDF cell masses",
+    "narrow_window_sigma": 3.0,
+    "head_seeds": [
+      12000,
+      12001,
+      12002
+    ],
+    "maxiter": 2200,
+    "expectation_training_points": 32768,
+    "expectation_evaluation_points": 131072,
+    "selection": "minimum training W2 squared; no tuning after seeing results",
+    "config_sha256": "b6d74ba9cffdf2adb4a0a863c6e7a6d929423e1b534ec66022a118fc94766ef2",
+    "formula": "p_j = 0.2*g_1(y_j)/sum_k g_1(y_k) + 0.8*g_2(y_j)/sum_k g_2(y_k); g_1(y)=exp(-(y+3)^2/(2*0.1^2)); g_2(y)=exp(-(y-1)^2/(2*1.2^2))",
+    "component_node_masses": [
+      0.9999999999999998,
+      1.0
+    ],
+    "narrow_window_bounds": [
+      -3.3,
+      -2.7
+    ],
+    "narrow_window_index_inclusive": [
+      697,
+      941
+    ],
+    "narrow_window_component_masses": [
+      0.1994448286052436,
+      0.0006810498728822626
+    ],
+    "narrow_window_target_mass": 0.20012587847812582
+  }
+}

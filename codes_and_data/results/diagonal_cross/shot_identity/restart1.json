@@ -1,0 +1,28 @@
+{
+  "target": "diagonal_cross",
+  "model": "shot_identity",
+  "restart": 1,
+  "initialization": "Generic Gaussian directions; target mean/covariance matching only",
+  "initial_loss": 0.08077670684785437,
+  "final_loss": 0.00017351813149396822,
+  "loss": "sliced W2 squared,32 fixed equally spaced angles",
+  "iterations": 270,
+  "evaluations": 277,
+  "solver_success": true,
+  "solver_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+  "gradient_inf": 1.6553960915732742e-07,
+  "seconds": 12.944814205169678,
+  "feature_file": "results/features/D2_shot_identity_4096.npz",
+  "feature_sha256": "ae19858ca42b8c1ab93e15c2df2196cdcbe9fd280cd1d47af9c331222081e764",
+  "target_sha256": "85488f6148c740b12881f62cba1d7ed9094b2ec92c31527fcb97c8ef37d4200e",
+  "coordinate_offset": [
+    0.0,
+    0.0
+  ],
+  "coordinate_scale": [
+    1.0,
+    1.0
+  ],
+  "metric_coordinates": "(physical coordinate-offset)/scale; both1D supports map to[-5,5],2D unchanged",
+  "source_sha256": "1077db0ef84ec5ab5dbfebc7171ff96eb9209343d215109599e5a1961b327c61"
+}

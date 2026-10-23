@@ -1,0 +1,20 @@
+{
+  "target": "two_moons",
+  "model": "shot_cluster",
+  "restart": 1,
+  "rng_seed": 12001,
+  "initialization": "Generic Gaussian directions; matched target mean/covariance only",
+  "initial_loss": 0.07151173680766562,
+  "final_loss": 0.0001334942974214351,
+  "iterations": 870,
+  "evaluations": 874,
+  "solver_success": true,
+  "solver_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+  "gradient_inf": 1.7420883917324147e-07,
+  "seconds": 9.445696353912354,
+  "feature_file": "results/features/D2_shot_cluster_4096.npz",
+  "feature_sha256": "22fed44a480e86d336f9d68ec082b910d7d4d7b850749ecc536d186dfc07cef2",
+  "target_sha256": "db4653cc61f1628d60c67eba10d516061795e924b72964975db631bbc67a3aae",
+  "source_sha256": "fcb19cdc96307c194486994d63e8db2b1d79e15b09d6b5f097548590236f13ac",
+  "training_latent_points": 4096
+}

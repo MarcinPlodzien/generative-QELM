@@ -1,0 +1,45 @@
+{
+  "family": "haar",
+  "K": 16,
+  "seed": 2,
+  "gate_rng_seed": 10002,
+  "gate_file": "results/haar_depth/circuits/K16_s2.npz",
+  "gate_sha256": "0e1a5456967c5c189b2e18fa6f30211b5a485f4fd52b2a64c60dba2cc1319451",
+  "feature_spread": 0.020158036503069483,
+  "prior_TV_uniform": 0.017577041666706573,
+  "weight_quadrature_nodes": 8192,
+  "weight_quadrature_sha256": "b09de4121dab92c597373bc8093baf443d7f2754c896713c80b05205c07feaee",
+  "environment": {
+    "python": "3.13.5",
+    "numpy": "2.1.3",
+    "scipy": "1.15.3",
+    "threads": {
+      "OPENBLAS_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1"
+    },
+    "threadpools": [
+      {
+        "internal_api": "openblas",
+        "num_threads": 1,
+        "version": "0.3.27",
+        "architecture": "SkylakeX"
+      },
+      {
+        "internal_api": "mkl",
+        "num_threads": 1,
+        "version": "2025.3-Product",
+        "architecture": null
+      },
+      {
+        "internal_api": "openmp",
+        "num_threads": 1,
+        "version": null,
+        "architecture": null
+      }
+    ]
+  },
+  "evaluation_points": 131072,
+  "evaluation_feature_file": "results/haar_depth/evaluation_features/K16_s2.npy",
+  "evaluation_feature_sha256": "444545b87013d977713fa550b23eb1acb2d262153efc11e183484e460211a569"
+}

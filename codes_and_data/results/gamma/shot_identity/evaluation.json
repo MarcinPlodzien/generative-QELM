@@ -1,0 +1,103 @@
+{
+  "target": "gamma",
+  "model": "shot_identity",
+  "selected_restart": 1,
+  "selection": "minimum training loss across3 generic starts",
+  "training_loss": 4.747641918355506e-05,
+  "heldout_distribution_loss": 4.747641918355506e-05,
+  "MMD2_continuous": 2.849922009495742e-07,
+  "MMD2_quantized": 3.0809267120845973e-07,
+  "overflow_mass": 0.0,
+  "occupied_bins": 1620,
+  "law_note": "Exact all4096 single-shot atom probabilities; no sampling error.",
+  "metric_coordinates": "(physical coordinate-offset)/scale; both1D supports map to[-5,5],2D unchanged",
+  "coordinate_offset": [
+    6.0
+  ],
+  "coordinate_scale": [
+    1.2
+  ],
+  "solver_success": true,
+  "target_sha256": "643e9e3a3d7cee5da8f925f4b4f9e05a2a223c3720d4c0b48a905549d00fa498",
+  "selected_head_sha256": "574ea786ecc6e18c33609e7858b3f2965f0aedb1a5dfa48231f1082d77eb8c10",
+  "all_restarts": [
+    {
+      "target": "gamma",
+      "model": "shot_identity",
+      "restart": 0,
+      "initialization": "Generic Gaussian directions; target mean/covariance matching only",
+      "initial_loss": 0.14369803932486824,
+      "final_loss": 5.262264895704618e-05,
+      "loss": "exact discrete W2 squared",
+      "iterations": 80,
+      "evaluations": 81,
+      "solver_success": true,
+      "solver_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "gradient_inf": 2.0068301615567476e-07,
+      "seconds": 0.18592429161071777,
+      "feature_file": "results/features/D1_shot_identity_4096.npz",
+      "feature_sha256": "ae19858ca42b8c1ab93e15c2df2196cdcbe9fd280cd1d47af9c331222081e764",
+      "target_sha256": "643e9e3a3d7cee5da8f925f4b4f9e05a2a223c3720d4c0b48a905549d00fa498",
+      "coordinate_offset": [
+        6.0
+      ],
+      "coordinate_scale": [
+        1.2
+      ],
+      "metric_coordinates": "(physical coordinate-offset)/scale; both1D supports map to[-5,5],2D unchanged",
+      "source_sha256": "1077db0ef84ec5ab5dbfebc7171ff96eb9209343d215109599e5a1961b327c61"
+    },
+    {
+      "target": "gamma",
+      "model": "shot_identity",
+      "restart": 1,
+      "initialization": "Generic Gaussian directions; target mean/covariance matching only",
+      "initial_loss": 0.12076121167057852,
+      "final_loss": 4.747641918355506e-05,
+      "loss": "exact discrete W2 squared",
+      "iterations": 62,
+      "evaluations": 63,
+      "solver_success": true,
+      "solver_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "gradient_inf": 1.2349878879225534e-07,
+      "seconds": 0.13899493217468262,
+      "feature_file": "results/features/D1_shot_identity_4096.npz",
+      "feature_sha256": "ae19858ca42b8c1ab93e15c2df2196cdcbe9fd280cd1d47af9c331222081e764",
+      "target_sha256": "643e9e3a3d7cee5da8f925f4b4f9e05a2a223c3720d4c0b48a905549d00fa498",
+      "coordinate_offset": [
+        6.0
+      ],
+      "coordinate_scale": [
+        1.2
+      ],
+      "metric_coordinates": "(physical coordinate-offset)/scale; both1D supports map to[-5,5],2D unchanged",
+      "source_sha256": "1077db0ef84ec5ab5dbfebc7171ff96eb9209343d215109599e5a1961b327c61"
+    },
+    {
+      "target": "gamma",
+      "model": "shot_identity",
+      "restart": 2,
+      "initialization": "Generic Gaussian directions; target mean/covariance matching only",
+      "initial_loss": 0.1604490741561128,
+      "final_loss": 6.0745423981399294e-05,
+      "loss": "exact discrete W2 squared",
+      "iterations": 101,
+      "evaluations": 103,
+      "solver_success": true,
+      "solver_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "gradient_inf": 1.962924655219434e-07,
+      "seconds": 0.4349853992462158,
+      "feature_file": "results/features/D1_shot_identity_4096.npz",
+      "feature_sha256": "ae19858ca42b8c1ab93e15c2df2196cdcbe9fd280cd1d47af9c331222081e764",
+      "target_sha256": "643e9e3a3d7cee5da8f925f4b4f9e05a2a223c3720d4c0b48a905549d00fa498",
+      "coordinate_offset": [
+        6.0
+      ],
+      "coordinate_scale": [
+        1.2
+      ],
+      "metric_coordinates": "(physical coordinate-offset)/scale; both1D supports map to[-5,5],2D unchanged",
+      "source_sha256": "1077db0ef84ec5ab5dbfebc7171ff96eb9209343d215109599e5a1961b327c61"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "target": "narrow_broad",
+  "N": 12,
+  "nodes": 4096,
+  "display_coordinate": "t = j/4095, j = 0,...,4095",
+  "training_coordinate": "y = 10*t - 5",
+  "component_weights": [
+    0.3,
+    0.7
+  ],
+  "gaussian_mean_t": 0.3,
+  "gaussian_sigma_index": 16.0,
+  "gamma_shape": 3.0,
+  "gamma_scale_t": 0.1,
+  "gamma_shift_t": 0.45,
+  "normalization": "Each component normalized separately on the fixed nodes before mixing; this is a truncated node-density target, not CDF cell masses.",
+  "narrow_window_sigma": 3.0,
+  "head_seeds": [
+    12000,
+    12001,
+    12002
+  ],
+  "maxiter": 2200,
+  "expectation_training_points": 32768,
+  "expectation_evaluation_points": 131072,
+  "selection": "minimum training W2 squared; no tuning after seeing results"
+}

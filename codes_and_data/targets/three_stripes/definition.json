@@ -1,0 +1,47 @@
+{
+  "target": "three_stripes",
+  "N": 12,
+  "node_count": 4096,
+  "coordinate_offset": [
+    0.0,
+    0.0
+  ],
+  "coordinate_scale": [
+    1.0,
+    1.0
+  ],
+  "convention": "normalized density at fixed nodes; nearest-node assignment, midpoint ties upward",
+  "original_training_target_sha256": "85488f6148c740b12881f62cba1d7ed9094b2ec92c31527fcb97c8ef37d4200e",
+  "current_target_sha256": "31d841aca7a22cbdb10b7c9da55d5de1bbdef5faba3a90c1dbf1761c3911b77b",
+  "coordinates_sha256": "aa7ba94166b5496912c477d116175ac204ca86a0a80abb65034ebcdfb758091e",
+  "probabilities_sha256": "ed9dabc4da413e693ee0d00c1671b997befc5cc937260982c9613a45abd791db",
+  "definition": {
+    "N": 12,
+    "shape": [
+      64,
+      64
+    ],
+    "bounds": [
+      [
+        -3,
+        3
+      ],
+      [
+        -3,
+        3
+      ]
+    ],
+    "ordering": "C order; index=m_u*64+m_v, MSB first",
+    "definition": "Normalized density evaluated at nodes using manuscript continuous geometry",
+    "source_builder": "three_stripes"
+  },
+  "geometry": {
+    "line_offsets_y1_minus_y2": [
+      -2.5,
+      0,
+      2.5
+    ],
+    "ridge_width": 0.35,
+    "distance": "Euclidean perpendicular distance"
+  }
+}

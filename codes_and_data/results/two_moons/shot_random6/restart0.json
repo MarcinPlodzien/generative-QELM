@@ -1,0 +1,20 @@
+{
+  "target": "two_moons",
+  "model": "shot_random6",
+  "restart": 0,
+  "rng_seed": 12000,
+  "initialization": "Generic Gaussian directions; matched target mean/covariance only",
+  "initial_loss": 0.06614157166408277,
+  "final_loss": 0.0002406652954680139,
+  "iterations": 587,
+  "evaluations": 588,
+  "solver_success": true,
+  "solver_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+  "gradient_inf": 1.5025644728545873e-07,
+  "seconds": 6.736560583114624,
+  "feature_file": "results/features/D2_shot_random6_4096.npz",
+  "feature_sha256": "63eb02d0edf7fe2103188283f8e845bb2dc20ea62ece61c49d7604eeafe8cddc",
+  "target_sha256": "db4653cc61f1628d60c67eba10d516061795e924b72964975db631bbc67a3aae",
+  "source_sha256": "fcb19cdc96307c194486994d63e8db2b1d79e15b09d6b5f097548590236f13ac",
+  "training_latent_points": 4096
+}

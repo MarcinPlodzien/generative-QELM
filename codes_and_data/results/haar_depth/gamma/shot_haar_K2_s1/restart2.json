@@ -1,0 +1,20 @@
+{
+  "target": "gamma",
+  "model": "shot_haar_K2_s1",
+  "restart": 2,
+  "rng_seed": 12002,
+  "initialization": "Generic Gaussian directions; matched target mean/covariance only",
+  "initial_loss": 0.1531596425292949,
+  "final_loss": 2.517147556411043e-05,
+  "iterations": 110,
+  "evaluations": 114,
+  "solver_success": true,
+  "solver_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+  "gradient_inf": 2.25274620471396e-07,
+  "seconds": 0.12416553497314453,
+  "feature_file": "results/features/D1_shot_haar_K2_s1_4096.npz",
+  "feature_sha256": "0c6f5d6fd13f774e7218be44ca8a92e816f215f018389cfb1ea60f1bd2026bc1",
+  "target_sha256": "3cc97d5c72b99589e8ad7378ab361b2865cffb2c59c2973b4068c392588e84c4",
+  "source_sha256": "fcb19cdc96307c194486994d63e8db2b1d79e15b09d6b5f097548590236f13ac",
+  "training_latent_points": 4096
+}

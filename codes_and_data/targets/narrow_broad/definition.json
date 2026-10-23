@@ -1,0 +1,55 @@
+{
+  "target": "narrow_broad",
+  "N": 12,
+  "node_count": 4096,
+  "coordinate_offset": [
+    2047.5
+  ],
+  "coordinate_scale": [
+    409.5
+  ],
+  "convention": "normalized density at fixed nodes; nearest-node assignment, midpoint ties upward",
+  "original_training_target_sha256": "76d5dc98a454541b6bd729d225df6ea0d6c8e40b30977c1db51cfecab1d0685b",
+  "current_target_sha256": "76d5dc98a454541b6bd729d225df6ea0d6c8e40b30977c1db51cfecab1d0685b",
+  "coordinates_sha256": "d5575075eb395216bf2ef800ba88d1fe5fa5aa2cb0f9d32e41c0ed0fe2104253",
+  "probabilities_sha256": "45d0949751296ff25a24e7641db0f2b84ef0bba9d454e1275ab99bb791405037",
+  "definition": {
+    "target": "narrow_broad",
+    "N": 12,
+    "nodes": 4096,
+    "display_coordinate": "t = j/4095, j = 0,...,4095",
+    "training_coordinate": "y = 10*t - 5",
+    "component_weights": [
+      0.3,
+      0.7
+    ],
+    "gaussian_mean_t": 0.3,
+    "gaussian_sigma_index": 16.0,
+    "gamma_shape": 3.0,
+    "gamma_scale_t": 0.1,
+    "gamma_shift_t": 0.45,
+    "normalization": "Each component normalized separately on the fixed nodes before mixing; this is a truncated node-density target, not CDF cell masses.",
+    "narrow_window_sigma": 3.0,
+    "head_seeds": [
+      12000,
+      12001,
+      12002
+    ],
+    "maxiter": 2200,
+    "expectation_training_points": 32768,
+    "expectation_evaluation_points": 131072,
+    "selection": "minimum training W2 squared; no tuning after seeing results",
+    "config_sha256": "77716ac899526bdca5f731a7cce4430b1883f6cb5b48bc3c508ef8f5288f3b56",
+    "formula": "p_j = 0.3*g(t_j)/sum_k g(t_k) + 0.7*h(t_j)/sum_k h(t_k); g(t)=exp(-(t-0.30)^2/(2*(16/4095)^2)); h(t)=(t-0.45)^2*exp(-(t-0.45)/0.10)/(2*0.10^3) for t>0.45, zero otherwise",
+    "gamma_mode_t": 0.65,
+    "component_node_masses": [
+      0.9999999999999999,
+      1.0
+    ],
+    "narrow_window_index_inclusive": [
+      1181,
+      1276
+    ],
+    "narrow_window_target_mass": 0.2991913586866296
+  }
+}

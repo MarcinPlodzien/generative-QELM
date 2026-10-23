@@ -1,0 +1,40 @@
+{
+  "N": 12,
+  "D": 1,
+  "M": 298,
+  "depth_symbol": "K",
+  "depths": [
+    1,
+    2,
+    4,
+    8,
+    16
+  ],
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "targets": [
+    "five_peak",
+    "gamma"
+  ],
+  "modes": [
+    "expectation",
+    "shot"
+  ],
+  "gate_recipe": "scipy.stats.unitary_group.rvs(4,random_state=numpy.random.default_rng(10000+seed)), in open-chain brickwork layer order",
+  "train_points": 32768,
+  "evaluation_points": 131072,
+  "weight_quadrature": "Gauss-Legendre8192 on[0,1]; deterministic latent-averaged Born weights to validated numerical precision",
+  "weight_quadrature_nodes": 8192,
+  "head_seeds": [
+    12000,
+    12001,
+    12002
+  ],
+  "maxiter": 2200,
+  "blas_threads": 1,
+  "max_workers": 4,
+  "figure": "manuscript_v2/figures/fig04_haar_depth.png"
+}

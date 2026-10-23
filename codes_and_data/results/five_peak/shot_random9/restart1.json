@@ -1,0 +1,20 @@
+{
+  "target": "five_peak",
+  "model": "shot_random9",
+  "restart": 1,
+  "rng_seed": 12001,
+  "initialization": "Generic Gaussian directions; matched target mean/covariance only",
+  "initial_loss": 0.24282856051100968,
+  "final_loss": 0.0013144185080547109,
+  "iterations": 284,
+  "evaluations": 288,
+  "solver_success": true,
+  "solver_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+  "gradient_inf": 1.0479185049663671e-07,
+  "seconds": 0.24785447120666504,
+  "feature_file": "results/features/D1_shot_random9_4096.npz",
+  "feature_sha256": "93fa62dd559237684ee036a773a25bfeb573d122e77e74575eaa5cbfe04cd87a",
+  "target_sha256": "6bf3d02a1ccc0f1643f6fcf45a180b8b0991344f17ba87c59ccab7d000e96937",
+  "source_sha256": "fcb19cdc96307c194486994d63e8db2b1d79e15b09d6b5f097548590236f13ac",
+  "training_latent_points": 4096
+}

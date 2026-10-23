@@ -1,0 +1,51 @@
+{
+  "target": "two_moons",
+  "N": 12,
+  "node_count": 4096,
+  "coordinate_offset": [
+    0.0,
+    0.0
+  ],
+  "coordinate_scale": [
+    1.0,
+    1.0
+  ],
+  "convention": "normalized density at fixed nodes; nearest-node assignment, midpoint ties upward",
+  "original_training_target_sha256": "85488f6148c740b12881f62cba1d7ed9094b2ec92c31527fcb97c8ef37d4200e",
+  "current_target_sha256": "db4653cc61f1628d60c67eba10d516061795e924b72964975db631bbc67a3aae",
+  "coordinates_sha256": "aa7ba94166b5496912c477d116175ac204ca86a0a80abb65034ebcdfb758091e",
+  "probabilities_sha256": "89e9df60c40705e229eab18934dae49468ade528b97fc7df7d617744bb403a74",
+  "definition": {
+    "N": 12,
+    "shape": [
+      64,
+      64
+    ],
+    "bounds": [
+      [
+        -3,
+        3
+      ],
+      [
+        -3,
+        3
+      ]
+    ],
+    "ordering": "C order; index=m_u*64+m_v, MSB first",
+    "definition": "Normalized density evaluated at nodes using manuscript continuous geometry",
+    "source_builder": "two_moons"
+  },
+  "geometry": {
+    "radius": 2.0,
+    "upper_center": [
+      -1.0,
+      -0.5
+    ],
+    "lower_center": [
+      1.0,
+      0.5
+    ],
+    "ridge_width": 0.3,
+    "distance": "minimum distance to either semicircle"
+  }
+}

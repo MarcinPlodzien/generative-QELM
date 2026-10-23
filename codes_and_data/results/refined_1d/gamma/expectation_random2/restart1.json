@@ -1,0 +1,18 @@
+{
+  "target": "gamma",
+  "model": "expectation_random2",
+  "restart": 1,
+  "initialization": "Generic Gaussian directions; matched target mean/covariance only",
+  "initial_loss": 0.155238031480047,
+  "final_loss": 6.4646675511223216e-06,
+  "iterations": 139,
+  "solver_success": true,
+  "solver_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+  "seconds": 29.363990306854248,
+  "feature_file": "results/features/D1_expectation_random2_32768.npz",
+  "feature_sha256": "5d10133e3aed7b440027542fd09fba5ba58f05e0237552e2984ececbec8db00e",
+  "training_latent_points": 32768,
+  "target_sha256": "643e9e3a3d7cee5da8f925f4b4f9e05a2a223c3720d4c0b48a905549d00fa498",
+  "source_sha256": "b84782eebf696e21e079e98d6f220aceb1ed79eaa442c4a0dabc4aab0a6c955e",
+  "base_source_sha256": "1077db0ef84ec5ab5dbfebc7171ff96eb9209343d215109599e5a1961b327c61"
+}

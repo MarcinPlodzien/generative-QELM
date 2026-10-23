@@ -1,0 +1,26 @@
+{
+  "target": "gamma",
+  "model": "shot_identity",
+  "restart": 0,
+  "initialization": "Generic Gaussian directions; target mean/covariance matching only",
+  "initial_loss": 0.14369803932486824,
+  "final_loss": 5.262264895704618e-05,
+  "loss": "exact discrete W2 squared",
+  "iterations": 80,
+  "evaluations": 81,
+  "solver_success": true,
+  "solver_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+  "gradient_inf": 2.0068301615567476e-07,
+  "seconds": 0.18592429161071777,
+  "feature_file": "results/features/D1_shot_identity_4096.npz",
+  "feature_sha256": "ae19858ca42b8c1ab93e15c2df2196cdcbe9fd280cd1d47af9c331222081e764",
+  "target_sha256": "643e9e3a3d7cee5da8f925f4b4f9e05a2a223c3720d4c0b48a905549d00fa498",
+  "coordinate_offset": [
+    6.0
+  ],
+  "coordinate_scale": [
+    1.2
+  ],
+  "metric_coordinates": "(physical coordinate-offset)/scale; both1D supports map to[-5,5],2D unchanged",
+  "source_sha256": "1077db0ef84ec5ab5dbfebc7171ff96eb9209343d215109599e5a1961b327c61"
+}

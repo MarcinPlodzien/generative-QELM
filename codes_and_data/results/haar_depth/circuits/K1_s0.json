@@ -1,0 +1,45 @@
+{
+  "family": "haar",
+  "K": 1,
+  "seed": 0,
+  "gate_rng_seed": 10000,
+  "gate_file": "results/haar_depth/circuits/K1_s0.npz",
+  "gate_sha256": "ad348b3ca688afad23511030e23e6e1e688377c3e08d0918ca925a7fe80530b0",
+  "feature_spread": 0.13137679870219757,
+  "prior_TV_uniform": 0.06620716694097334,
+  "weight_quadrature_nodes": 8192,
+  "weight_quadrature_sha256": "b09de4121dab92c597373bc8093baf443d7f2754c896713c80b05205c07feaee",
+  "environment": {
+    "python": "3.13.5",
+    "numpy": "2.1.3",
+    "scipy": "1.15.3",
+    "threads": {
+      "OPENBLAS_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1"
+    },
+    "threadpools": [
+      {
+        "internal_api": "openblas",
+        "num_threads": 1,
+        "version": "0.3.27",
+        "architecture": "SkylakeX"
+      },
+      {
+        "internal_api": "mkl",
+        "num_threads": 1,
+        "version": "2025.3-Product",
+        "architecture": null
+      },
+      {
+        "internal_api": "openmp",
+        "num_threads": 1,
+        "version": null,
+        "architecture": null
+      }
+    ]
+  },
+  "evaluation_points": 131072,
+  "evaluation_feature_file": "results/haar_depth/evaluation_features/K1_s0.npy",
+  "evaluation_feature_sha256": "7861428ceca05bfd57eec1a7c6d5ccb02fed79470f363cb4b2927a19653a8b6e"
+}

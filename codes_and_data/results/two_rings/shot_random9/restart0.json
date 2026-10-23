@@ -1,0 +1,20 @@
+{
+  "target": "two_rings",
+  "model": "shot_random9",
+  "restart": 0,
+  "rng_seed": 12000,
+  "initialization": "Generic Gaussian directions; matched target mean/covariance only",
+  "initial_loss": 0.06330834132493096,
+  "final_loss": 0.00015539513363269002,
+  "iterations": 395,
+  "evaluations": 400,
+  "solver_success": true,
+  "solver_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+  "gradient_inf": 9.624093834220716e-07,
+  "seconds": 4.726315975189209,
+  "feature_file": "results/features/D2_shot_random9_4096.npz",
+  "feature_sha256": "e518893fb989bd150f4fac9b3364824e914cd560dfde1dd63b386543de98b5cd",
+  "target_sha256": "6d171c5c50b57ce2a76450b33bceeaed41764e1fc070de99c1b2c3e4a8f3efdd",
+  "source_sha256": "fcb19cdc96307c194486994d63e8db2b1d79e15b09d6b5f097548590236f13ac",
+  "training_latent_points": 4096
+}

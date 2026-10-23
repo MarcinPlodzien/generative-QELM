@@ -1,0 +1,20 @@
+{
+  "target": "diagonal_cross",
+  "model": "shot_random3",
+  "restart": 2,
+  "rng_seed": 12002,
+  "initialization": "Generic Gaussian directions; matched target mean/covariance only",
+  "initial_loss": 0.08400710228262263,
+  "final_loss": 0.00015088400482396306,
+  "iterations": 620,
+  "evaluations": 625,
+  "solver_success": true,
+  "solver_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+  "gradient_inf": 1.1308011923883853e-07,
+  "seconds": 7.780723333358765,
+  "feature_file": "results/features/D2_shot_random3_4096.npz",
+  "feature_sha256": "8829674508bb739785d468cff6878076928e6ee616bccb8023f2d368f2abb6cb",
+  "target_sha256": "5200311bf60510f217f3730252fc173379c0ea519b29030b96841e13347af35b",
+  "source_sha256": "fcb19cdc96307c194486994d63e8db2b1d79e15b09d6b5f097548590236f13ac",
+  "training_latent_points": 4096
+}

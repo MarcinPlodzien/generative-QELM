@@ -1,0 +1,37 @@
+{
+  "target": "five_peak",
+  "N": 12,
+  "node_count": 4096,
+  "coordinate_offset": [
+    2047.5
+  ],
+  "coordinate_scale": [
+    409.5
+  ],
+  "convention": "normalized density at fixed nodes; nearest-node assignment, midpoint ties upward",
+  "original_training_target_sha256": "85488f6148c740b12881f62cba1d7ed9094b2ec92c31527fcb97c8ef37d4200e",
+  "current_target_sha256": "6bf3d02a1ccc0f1643f6fcf45a180b8b0991344f17ba87c59ccab7d000e96937",
+  "coordinates_sha256": "b83e23eb1db808bf694ae4894d62b50c9840bcd869ba7ac2456f40ddf0530bf3",
+  "probabilities_sha256": "df5bdc0be7d5563e143761cbde9b5ba367d93b4da5a9a07c7a55fcf39a48541a",
+  "definition": {
+    "N": 12,
+    "coordinates": "Integer bin indices0..4095, no silent coordinate rescaling",
+    "means": [
+      409.6,
+      1228.8,
+      2048.0,
+      2867.2,
+      3686.4
+    ],
+    "sigma": 204.8,
+    "unnormalized_weights": [
+      1.593120887400734,
+      0.9899811915536942,
+      1.7454762558404884,
+      1.455262452306855,
+      0.36951922619776917
+    ],
+    "rng": "np.random.default_rng(42).uniform(.2,2.,size=5)",
+    "construction": "Exact original code PMF, MSB first"
+  }
+}

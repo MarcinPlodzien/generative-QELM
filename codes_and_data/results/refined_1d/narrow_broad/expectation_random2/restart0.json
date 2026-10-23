@@ -1,0 +1,20 @@
+{
+  "target": "narrow_broad",
+  "model": "expectation_random2",
+  "restart": 0,
+  "rng_seed": 12000,
+  "initialization": "Generic Gaussian directions; matched target mean/covariance only",
+  "initial_loss": 0.684299088222336,
+  "final_loss": 0.14585102925273713,
+  "iterations": 142,
+  "evaluations": 150,
+  "solver_success": true,
+  "solver_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+  "gradient_inf": 3.118253764388757e-07,
+  "seconds": 3.986294984817505,
+  "feature_file": "results/features/D1_expectation_random2_32768.npz",
+  "feature_sha256": "5d10133e3aed7b440027542fd09fba5ba58f05e0237552e2984ececbec8db00e",
+  "target_sha256": "76d5dc98a454541b6bd729d225df6ea0d6c8e40b30977c1db51cfecab1d0685b",
+  "source_sha256": "fcb19cdc96307c194486994d63e8db2b1d79e15b09d6b5f097548590236f13ac",
+  "training_latent_points": 32768
+}

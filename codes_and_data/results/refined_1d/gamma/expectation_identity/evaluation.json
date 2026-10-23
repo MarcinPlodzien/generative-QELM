@@ -1,0 +1,82 @@
+{
+  "target": "gamma",
+  "model": "expectation_identity",
+  "selected_restart": 0,
+  "selection": "minimum training loss across3 generic starts",
+  "training_loss": 7.69091775911927e-06,
+  "heldout_distribution_loss": 7.935406475378238e-06,
+  "MMD2_continuous": 5.4499991630763134e-08,
+  "MMD2_continuous_compression_absolute_bound": 7.279386285760926,
+  "MMD2_quantized": 5.612421777323462e-08,
+  "overflow_mass": 0.0,
+  "occupied_bins": 2956,
+  "law_note": "131072-point independent shifted latent quadrature; continuous MMD uses8192 sorted equal-mass centroid groups with an explicit conservative error bound; quantized MMD uses full4096-bin PMF.",
+  "training_latent_points": 32768,
+  "evaluation_latent_points": 131072,
+  "metric_coordinates": "Both1D supports map to[-5,5]",
+  "coordinate_offset": [
+    6.0
+  ],
+  "coordinate_scale": [
+    1.2
+  ],
+  "solver_success": true,
+  "all_restarts": [
+    {
+      "target": "gamma",
+      "model": "expectation_identity",
+      "restart": 0,
+      "initialization": "Generic Gaussian directions; matched target mean/covariance only",
+      "initial_loss": 0.12320834728437,
+      "final_loss": 7.69091775911927e-06,
+      "iterations": 156,
+      "solver_success": true,
+      "solver_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "seconds": 11.610652208328247,
+      "feature_file": "results/features/D1_expectation_identity_32768.npz",
+      "feature_sha256": "8e492b9c89e620b1ec6cb06ce64d304f6c80b2af95ad06b9432b17b8c7942a14",
+      "training_latent_points": 32768,
+      "target_sha256": "643e9e3a3d7cee5da8f925f4b4f9e05a2a223c3720d4c0b48a905549d00fa498",
+      "source_sha256": "b84782eebf696e21e079e98d6f220aceb1ed79eaa442c4a0dabc4aab0a6c955e",
+      "base_source_sha256": "1077db0ef84ec5ab5dbfebc7171ff96eb9209343d215109599e5a1961b327c61"
+    },
+    {
+      "target": "gamma",
+      "model": "expectation_identity",
+      "restart": 1,
+      "initialization": "Generic Gaussian directions; matched target mean/covariance only",
+      "initial_loss": 0.1273705761163841,
+      "final_loss": 3.1779900337756695e-05,
+      "iterations": 155,
+      "solver_success": true,
+      "solver_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "seconds": 24.931734323501587,
+      "feature_file": "results/features/D1_expectation_identity_32768.npz",
+      "feature_sha256": "8e492b9c89e620b1ec6cb06ce64d304f6c80b2af95ad06b9432b17b8c7942a14",
+      "training_latent_points": 32768,
+      "target_sha256": "643e9e3a3d7cee5da8f925f4b4f9e05a2a223c3720d4c0b48a905549d00fa498",
+      "source_sha256": "b84782eebf696e21e079e98d6f220aceb1ed79eaa442c4a0dabc4aab0a6c955e",
+      "base_source_sha256": "1077db0ef84ec5ab5dbfebc7171ff96eb9209343d215109599e5a1961b327c61"
+    },
+    {
+      "target": "gamma",
+      "model": "expectation_identity",
+      "restart": 2,
+      "initialization": "Generic Gaussian directions; matched target mean/covariance only",
+      "initial_loss": 0.13157960458685966,
+      "final_loss": 8.59706893880616e-06,
+      "iterations": 117,
+      "solver_success": true,
+      "solver_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "seconds": 27.31615924835205,
+      "feature_file": "results/features/D1_expectation_identity_32768.npz",
+      "feature_sha256": "8e492b9c89e620b1ec6cb06ce64d304f6c80b2af95ad06b9432b17b8c7942a14",
+      "training_latent_points": 32768,
+      "target_sha256": "643e9e3a3d7cee5da8f925f4b4f9e05a2a223c3720d4c0b48a905549d00fa498",
+      "source_sha256": "b84782eebf696e21e079e98d6f220aceb1ed79eaa442c4a0dabc4aab0a6c955e",
+      "base_source_sha256": "1077db0ef84ec5ab5dbfebc7171ff96eb9209343d215109599e5a1961b327c61"
+    }
+  ],
+  "target_sha256": "643e9e3a3d7cee5da8f925f4b4f9e05a2a223c3720d4c0b48a905549d00fa498",
+  "selected_head_sha256": "693e01ffc7ecceb1ce5c6b3e34e38343d1964910416602afc6cf4fb9c6a9e0e4"
+}

@@ -1,0 +1,20 @@
+{
+  "target": "three_stripes",
+  "model": "shot_random8",
+  "restart": 0,
+  "rng_seed": 12000,
+  "initialization": "Generic Gaussian directions; matched target mean/covariance only",
+  "initial_loss": 0.07499636990068477,
+  "final_loss": 0.0007074409376516749,
+  "iterations": 600,
+  "evaluations": 605,
+  "solver_success": true,
+  "solver_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+  "gradient_inf": 3.345181107098623e-07,
+  "seconds": 6.623829126358032,
+  "feature_file": "results/features/D2_shot_random8_4096.npz",
+  "feature_sha256": "617fd3f0248bf769dd370b449bacc74277a43318902eca1d26a46b0e4c98a0c9",
+  "target_sha256": "31d841aca7a22cbdb10b7c9da55d5de1bbdef5faba3a90c1dbf1761c3911b77b",
+  "source_sha256": "fcb19cdc96307c194486994d63e8db2b1d79e15b09d6b5f097548590236f13ac",
+  "training_latent_points": 4096
+}

@@ -1,0 +1,33 @@
+{
+  "target": "unequal_mixture",
+  "N": 12,
+  "nodes": 4096,
+  "bounds": [
+    -5.0,
+    5.0
+  ],
+  "component_weights": [
+    0.2,
+    0.8
+  ],
+  "means": [
+    -3.0,
+    1.0
+  ],
+  "stds": [
+    0.1,
+    1.2
+  ],
+  "training_coordinate": "y itself; no rescaling",
+  "normalization": "Separate normalized Gaussian node densities, then weighted mixture; not CDF cell masses",
+  "narrow_window_sigma": 3.0,
+  "head_seeds": [
+    12000,
+    12001,
+    12002
+  ],
+  "maxiter": 2200,
+  "expectation_training_points": 32768,
+  "expectation_evaluation_points": 131072,
+  "selection": "minimum training W2 squared; no tuning after seeing results"
+}

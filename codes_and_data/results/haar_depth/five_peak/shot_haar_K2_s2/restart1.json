@@ -1,0 +1,20 @@
+{
+  "target": "five_peak",
+  "model": "shot_haar_K2_s2",
+  "restart": 1,
+  "rng_seed": 12001,
+  "initialization": "Generic Gaussian directions; matched target mean/covariance only",
+  "initial_loss": 0.2662179247740733,
+  "final_loss": 0.0017662114188491467,
+  "iterations": 315,
+  "evaluations": 317,
+  "solver_success": true,
+  "solver_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+  "gradient_inf": 1.6434048880108964e-07,
+  "seconds": 0.5909144878387451,
+  "feature_file": "results/features/D1_shot_haar_K2_s2_4096.npz",
+  "feature_sha256": "b14a11d892516e823b7200df2de7801dddb0c1976072024ced58d8c448b03c37",
+  "target_sha256": "6bf3d02a1ccc0f1643f6fcf45a180b8b0991344f17ba87c59ccab7d000e96937",
+  "source_sha256": "fcb19cdc96307c194486994d63e8db2b1d79e15b09d6b5f097548590236f13ac",
+  "training_latent_points": 4096
+}

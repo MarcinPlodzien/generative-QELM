@@ -1,0 +1,38 @@
+{
+  "target": "gamma",
+  "N": 12,
+  "node_count": 4096,
+  "coordinate_offset": [
+    6.0
+  ],
+  "coordinate_scale": [
+    1.2
+  ],
+  "convention": "normalized density at fixed nodes; nearest-node assignment, midpoint ties upward",
+  "original_training_target_sha256": "643e9e3a3d7cee5da8f925f4b4f9e05a2a223c3720d4c0b48a905549d00fa498",
+  "current_target_sha256": "3cc97d5c72b99589e8ad7378ab361b2865cffb2c59c2973b4068c392588e84c4",
+  "coordinates_sha256": "9a0eab13ec1a22938d045afd5be95b2a49c4432ed6007af4b0b6864342d61f4b",
+  "probabilities_sha256": "1505b319c55761c5391035e7cd22c84452f7ee071db1fde3aca81484352e1347",
+  "definition": {
+    "status": "Prepared and validated; no training",
+    "N": 12,
+    "D": 1,
+    "d": 1,
+    "shape": 2.0,
+    "scale": 1.0,
+    "bounds": [
+      0.0,
+      12.0
+    ],
+    "nodes": 4096,
+    "source_density": "f(x)=x exp(-x) for x>=0; zero otherwise",
+    "primary_target": "p[j]=x[j]*exp(-x[j])/sum_k(x[k]*exp(-x[k])); inclusive uniform nodes on[0,12]",
+    "quantizer": "nearest node; midpoint ties upward; endpoint clipping",
+    "label": "12-bit standard binary index j, MSB first",
+    "continuous_source_mass_above_12": 7.987476059326673e-05,
+    "secondary_target": "Untruncated continuous Gamma quantized to nearest nodes, with endpoint clipping; cell_pmf is diagnostic, NOT the training target",
+    "TV_node_vs_cell": 8.083914541237493e-05,
+    "target_sha256": "643e9e3a3d7cee5da8f925f4b4f9e05a2a223c3720d4c0b48a905549d00fa498",
+    "validation": "Nonnegative normalized PMFs; all4096 node/index roundtrips passed"
+  }
+}

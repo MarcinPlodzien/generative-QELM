@@ -1,0 +1,28 @@
+{
+  "target": "three_stripes",
+  "model": "shot_random1",
+  "restart": 1,
+  "initialization": "Generic Gaussian directions; target mean/covariance matching only",
+  "initial_loss": 0.07034060923166065,
+  "final_loss": 0.00024090079843817826,
+  "loss": "sliced W2 squared,32 fixed equally spaced angles",
+  "iterations": 455,
+  "evaluations": 457,
+  "solver_success": true,
+  "solver_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+  "gradient_inf": 3.454699985647568e-07,
+  "seconds": 78.75406098365784,
+  "feature_file": "results/features/D2_shot_random1_4096.npz",
+  "feature_sha256": "6538d0314a41e96702288fa4f5e48dd1b064c5cc3b7cb013542fd5cd21cca285",
+  "target_sha256": "85488f6148c740b12881f62cba1d7ed9094b2ec92c31527fcb97c8ef37d4200e",
+  "coordinate_offset": [
+    0.0,
+    0.0
+  ],
+  "coordinate_scale": [
+    1.0,
+    1.0
+  ],
+  "metric_coordinates": "(physical coordinate-offset)/scale; both1D supports map to[-5,5],2D unchanged",
+  "source_sha256": "1077db0ef84ec5ab5dbfebc7171ff96eb9209343d215109599e5a1961b327c61"
+}

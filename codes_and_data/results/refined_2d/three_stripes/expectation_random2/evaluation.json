@@ -1,0 +1,132 @@
+{
+  "target": "three_stripes",
+  "model": "expectation_random2",
+  "selected_restart": 1,
+  "selection": "minimum training loss across3 generic starts",
+  "training_loss": 0.00017102181463912554,
+  "heldout_distribution_loss": 0.000181233046328208,
+  "heldout_distribution_loss_directions": 32,
+  "heldout_distribution_loss_64": 0.00017984500440272708,
+  "heldout_to_training_ratio": 1.0597071882942493,
+  "MMD2_quantized": 0.00029286373662962273,
+  "MMD2_continuous": null,
+  "continuous_mmd_note": "Not computed for the refined heads; the quantized MMD is reported.",
+  "overflow_mass": 0.0307159423828125,
+  "occupied_bins": 3616,
+  "law_note": "131072-point independent scrambled-Sobol latent quadrature (seed7921); exact4096-bin aggregation of this quadrature law, not exact continuous-latent integration.",
+  "training_latent_points": 32768,
+  "evaluation_latent_points": 131072,
+  "metric_coordinates": "2D physical coordinates unchanged",
+  "coordinate_offset": [
+    0.0,
+    0.0
+  ],
+  "coordinate_scale": [
+    1.0,
+    1.0
+  ],
+  "solver_success": true,
+  "all_restarts": [
+    {
+      "target": "three_stripes",
+      "model": "expectation_random2",
+      "restart": 0,
+      "initialization": "Generic Gaussian directions; matched target mean/covariance only",
+      "rng_seed": 12000,
+      "initial_loss": 0.16831216968523915,
+      "final_loss": 0.00022182453577832814,
+      "loss": "sliced W2 squared,32 fixed equally spaced angles",
+      "iterations": 1058,
+      "evaluations": 1072,
+      "solver_success": true,
+      "solver_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "gradient_inf": 2.7194971234572625e-07,
+      "seconds": 99.67534303665161,
+      "feature_file": "results/features/D2_expectation_random2_32768.npz",
+      "feature_sha256": "6d670897645f62a59a77d0273631a312c428abeb419f49acb9e77a304eaa7ee2",
+      "training_latent_points": 32768,
+      "target_sha256": "85488f6148c740b12881f62cba1d7ed9094b2ec92c31527fcb97c8ef37d4200e",
+      "coordinate_offset": [
+        0.0,
+        0.0
+      ],
+      "coordinate_scale": [
+        1.0,
+        1.0
+      ],
+      "metric_coordinates": "2D physical coordinates unchanged",
+      "source_sha256": "1f52717f0910707a0bb31ac6ab6bc2a8c8fc7b1b4e5b4127401a92eb4811569c",
+      "base_source_sha256": "1077db0ef84ec5ab5dbfebc7171ff96eb9209343d215109599e5a1961b327c61"
+    },
+    {
+      "target": "three_stripes",
+      "model": "expectation_random2",
+      "restart": 1,
+      "initialization": "Generic Gaussian directions; matched target mean/covariance only",
+      "rng_seed": 12001,
+      "initial_loss": 0.16978371907988177,
+      "final_loss": 0.00017102181463912554,
+      "loss": "sliced W2 squared,32 fixed equally spaced angles",
+      "iterations": 817,
+      "evaluations": 826,
+      "solver_success": true,
+      "solver_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "gradient_inf": 2.0918206734821303e-07,
+      "seconds": 76.71653747558594,
+      "feature_file": "results/features/D2_expectation_random2_32768.npz",
+      "feature_sha256": "6d670897645f62a59a77d0273631a312c428abeb419f49acb9e77a304eaa7ee2",
+      "training_latent_points": 32768,
+      "target_sha256": "85488f6148c740b12881f62cba1d7ed9094b2ec92c31527fcb97c8ef37d4200e",
+      "coordinate_offset": [
+        0.0,
+        0.0
+      ],
+      "coordinate_scale": [
+        1.0,
+        1.0
+      ],
+      "metric_coordinates": "2D physical coordinates unchanged",
+      "source_sha256": "1f52717f0910707a0bb31ac6ab6bc2a8c8fc7b1b4e5b4127401a92eb4811569c",
+      "base_source_sha256": "1077db0ef84ec5ab5dbfebc7171ff96eb9209343d215109599e5a1961b327c61"
+    },
+    {
+      "target": "three_stripes",
+      "model": "expectation_random2",
+      "restart": 2,
+      "initialization": "Generic Gaussian directions; matched target mean/covariance only",
+      "rng_seed": 12002,
+      "initial_loss": 0.15742280225338393,
+      "final_loss": 0.0005019121527243622,
+      "loss": "sliced W2 squared,32 fixed equally spaced angles",
+      "iterations": 1113,
+      "evaluations": 1137,
+      "solver_success": true,
+      "solver_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "gradient_inf": 1.7705187434107453e-07,
+      "seconds": 105.33956456184387,
+      "feature_file": "results/features/D2_expectation_random2_32768.npz",
+      "feature_sha256": "6d670897645f62a59a77d0273631a312c428abeb419f49acb9e77a304eaa7ee2",
+      "training_latent_points": 32768,
+      "target_sha256": "85488f6148c740b12881f62cba1d7ed9094b2ec92c31527fcb97c8ef37d4200e",
+      "coordinate_offset": [
+        0.0,
+        0.0
+      ],
+      "coordinate_scale": [
+        1.0,
+        1.0
+      ],
+      "metric_coordinates": "2D physical coordinates unchanged",
+      "source_sha256": "1f52717f0910707a0bb31ac6ab6bc2a8c8fc7b1b4e5b4127401a92eb4811569c",
+      "base_source_sha256": "1077db0ef84ec5ab5dbfebc7171ff96eb9209343d215109599e5a1961b327c61"
+    }
+  ],
+  "target_sha256": "85488f6148c740b12881f62cba1d7ed9094b2ec92c31527fcb97c8ef37d4200e",
+  "selected_head_sha256": "b6dcab0c9d41870b46282fcd80a036562fdd91afacba02f5acac99ab8f97dcf4",
+  "baseline_training_loss": 0.0010577470795970437,
+  "baseline_heldout_distribution_loss_32": 0.01701364982832564,
+  "baseline_heldout_distribution_loss_64": 0.017015632849710183,
+  "baseline_evaluation_latent_points": 8192,
+  "baseline_MMD2_quantized": 0.008814862567663059,
+  "baseline_evaluation_sha256": "c97f62a5d06b888f5409474de348bf375f995e7548de7d75df2696e7fd9c2344"
+}

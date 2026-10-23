@@ -1,0 +1,132 @@
+{
+  "target": "two_rings",
+  "model": "expectation_identity",
+  "selected_restart": 2,
+  "selection": "minimum training loss across3 generic starts",
+  "training_loss": 0.00013358035973345288,
+  "heldout_distribution_loss": 0.00014916792014512962,
+  "heldout_distribution_loss_directions": 32,
+  "heldout_distribution_loss_64": 0.00014904042991657556,
+  "heldout_to_training_ratio": 1.1166905108114715,
+  "MMD2_quantized": 0.0003401000019107661,
+  "MMD2_continuous": null,
+  "continuous_mmd_note": "Not computed for the refined heads; the quantized MMD is reported.",
+  "overflow_mass": 0.000518798828125,
+  "occupied_bins": 3301,
+  "law_note": "131072-point independent scrambled-Sobol latent quadrature (seed7921); exact4096-bin aggregation of this quadrature law, not exact continuous-latent integration.",
+  "training_latent_points": 32768,
+  "evaluation_latent_points": 131072,
+  "metric_coordinates": "2D physical coordinates unchanged",
+  "coordinate_offset": [
+    0.0,
+    0.0
+  ],
+  "coordinate_scale": [
+    1.0,
+    1.0
+  ],
+  "solver_success": true,
+  "all_restarts": [
+    {
+      "target": "two_rings",
+      "model": "expectation_identity",
+      "restart": 0,
+      "initialization": "Generic Gaussian directions; matched target mean/covariance only",
+      "rng_seed": 12000,
+      "initial_loss": 0.09140718426016452,
+      "final_loss": 0.00017421134095693553,
+      "loss": "sliced W2 squared,32 fixed equally spaced angles",
+      "iterations": 1030,
+      "evaluations": 1037,
+      "solver_success": true,
+      "solver_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "gradient_inf": 1.3075833608325967e-07,
+      "seconds": 1559.9297733306885,
+      "feature_file": "results/features/D2_expectation_identity_32768.npz",
+      "feature_sha256": "b0bc0dc71fb78ae2150165735da60d35e24aaa351d9158939d2d0072a12a5975",
+      "training_latent_points": 32768,
+      "target_sha256": "85488f6148c740b12881f62cba1d7ed9094b2ec92c31527fcb97c8ef37d4200e",
+      "coordinate_offset": [
+        0.0,
+        0.0
+      ],
+      "coordinate_scale": [
+        1.0,
+        1.0
+      ],
+      "metric_coordinates": "2D physical coordinates unchanged",
+      "source_sha256": "1f52717f0910707a0bb31ac6ab6bc2a8c8fc7b1b4e5b4127401a92eb4811569c",
+      "base_source_sha256": "1077db0ef84ec5ab5dbfebc7171ff96eb9209343d215109599e5a1961b327c61"
+    },
+    {
+      "target": "two_rings",
+      "model": "expectation_identity",
+      "restart": 1,
+      "initialization": "Generic Gaussian directions; matched target mean/covariance only",
+      "rng_seed": 12001,
+      "initial_loss": 0.1002234415422543,
+      "final_loss": 0.00019003115770523316,
+      "loss": "sliced W2 squared,32 fixed equally spaced angles",
+      "iterations": 575,
+      "evaluations": 585,
+      "solver_success": true,
+      "solver_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "gradient_inf": 1.869820239335559e-07,
+      "seconds": 923.6245501041412,
+      "feature_file": "results/features/D2_expectation_identity_32768.npz",
+      "feature_sha256": "b0bc0dc71fb78ae2150165735da60d35e24aaa351d9158939d2d0072a12a5975",
+      "training_latent_points": 32768,
+      "target_sha256": "85488f6148c740b12881f62cba1d7ed9094b2ec92c31527fcb97c8ef37d4200e",
+      "coordinate_offset": [
+        0.0,
+        0.0
+      ],
+      "coordinate_scale": [
+        1.0,
+        1.0
+      ],
+      "metric_coordinates": "2D physical coordinates unchanged",
+      "source_sha256": "1f52717f0910707a0bb31ac6ab6bc2a8c8fc7b1b4e5b4127401a92eb4811569c",
+      "base_source_sha256": "1077db0ef84ec5ab5dbfebc7171ff96eb9209343d215109599e5a1961b327c61"
+    },
+    {
+      "target": "two_rings",
+      "model": "expectation_identity",
+      "restart": 2,
+      "initialization": "Generic Gaussian directions; matched target mean/covariance only",
+      "rng_seed": 12002,
+      "initial_loss": 0.08616249548108575,
+      "final_loss": 0.00013358035973345288,
+      "loss": "sliced W2 squared,32 fixed equally spaced angles",
+      "iterations": 884,
+      "evaluations": 893,
+      "solver_success": true,
+      "solver_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "gradient_inf": 1.7501929539560528e-07,
+      "seconds": 1358.8682851791382,
+      "feature_file": "results/features/D2_expectation_identity_32768.npz",
+      "feature_sha256": "b0bc0dc71fb78ae2150165735da60d35e24aaa351d9158939d2d0072a12a5975",
+      "training_latent_points": 32768,
+      "target_sha256": "85488f6148c740b12881f62cba1d7ed9094b2ec92c31527fcb97c8ef37d4200e",
+      "coordinate_offset": [
+        0.0,
+        0.0
+      ],
+      "coordinate_scale": [
+        1.0,
+        1.0
+      ],
+      "metric_coordinates": "2D physical coordinates unchanged",
+      "source_sha256": "1f52717f0910707a0bb31ac6ab6bc2a8c8fc7b1b4e5b4127401a92eb4811569c",
+      "base_source_sha256": "1077db0ef84ec5ab5dbfebc7171ff96eb9209343d215109599e5a1961b327c61"
+    }
+  ],
+  "target_sha256": "85488f6148c740b12881f62cba1d7ed9094b2ec92c31527fcb97c8ef37d4200e",
+  "selected_head_sha256": "b3bf0ed860dcb9aa5117b9b819d92e99499812dd71627d3e773c653db65f526c",
+  "baseline_training_loss": 0.0001299808165219974,
+  "baseline_heldout_distribution_loss_32": 0.0017842954754363545,
+  "baseline_heldout_distribution_loss_64": 0.00178435886505921,
+  "baseline_evaluation_latent_points": 8192,
+  "baseline_MMD2_quantized": 0.00242192258547428,
+  "baseline_evaluation_sha256": "eb2730452e0133c25a5e6bca89304cbd41861b283ce04519a0e20e79b71cf1db"
+}

@@ -1,0 +1,59 @@
+{
+  "target": "four_lobes",
+  "N": 12,
+  "node_count": 4096,
+  "coordinate_offset": [
+    0.0,
+    0.0
+  ],
+  "coordinate_scale": [
+    1.0,
+    1.0
+  ],
+  "convention": "normalized density at fixed nodes; nearest-node assignment, midpoint ties upward",
+  "original_training_target_sha256": "85488f6148c740b12881f62cba1d7ed9094b2ec92c31527fcb97c8ef37d4200e",
+  "current_target_sha256": "bf7512f15ad1c46dfde1685ba9562c4cc997f687c07d160f9cb1a27ac68c9486",
+  "coordinates_sha256": "aa7ba94166b5496912c477d116175ac204ca86a0a80abb65034ebcdfb758091e",
+  "probabilities_sha256": "ea93363603b40360e48514478ce39795e8fcb9cf9586927dc53274c30c6b5f32",
+  "definition": {
+    "N": 12,
+    "shape": [
+      64,
+      64
+    ],
+    "bounds": [
+      [
+        -3,
+        3
+      ],
+      [
+        -3,
+        3
+      ]
+    ],
+    "ordering": "C order; index=m_u*64+m_v, MSB first",
+    "definition": "Normalized density evaluated at nodes using manuscript continuous geometry",
+    "source_builder": "multimodal_2d"
+  },
+  "geometry": {
+    "centers": [
+      [
+        -1.5,
+        -1.5
+      ],
+      [
+        -1.5,
+        1.5
+      ],
+      [
+        1.5,
+        -1.5
+      ],
+      [
+        1.5,
+        1.5
+      ]
+    ],
+    "isotropic_sigma": 0.5
+  }
+}

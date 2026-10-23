@@ -1,0 +1,47 @@
+{
+  "targets_1d": [
+    "five_peak",
+    "gamma",
+    "unequal_mixture"
+  ],
+  "targets_2d": [
+    "two_rings",
+    "two_moons",
+    "diagonal_cross",
+    "three_stripes",
+    "four_lobes"
+  ],
+  "existing_random_seeds": [
+    0,
+    1,
+    2
+  ],
+  "new_random_seeds": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "N": 12,
+  "L": 4,
+  "M": 298,
+  "head_seeds": [
+    12000,
+    12001,
+    12002
+  ],
+  "expectation_training_points": 32768,
+  "expectation_evaluation_points": 131072,
+  "maxiter_1d": 2200,
+  "maxiter_2d": 1600,
+  "workers": 4,
+  "circuit_recipe": "Open-chain even/odd brickwork,4 layers; default_rng(seed), independent uniform draws from the fixed11520-element two-qubit Clifford group modulo phase",
+  "selection": "minimum training W2 squared or32-direction sliced W2 squared",
+  "metric": "quantized MMD squared; sum of Gaussian kernels with sigmas[.2,.5,1,2,4]",
+  "identity_rank": "1 + number of random circuits with strictly smaller MMD squared; insertion rank out of11",
+  "random2_rank": "Competition rank among10 random circuits; also report rank including identity",
+  "distinct_products": "Propagated Z parities weight<=3; identify Pauli Y with X for phi=pi/4; count unique products ignoring sign, as for circuit3=284"
+}

@@ -1,0 +1,111 @@
+{
+  "target": "diagonal_cross",
+  "model": "shot_random0",
+  "selected_restart": 0,
+  "selection": "minimum training loss across3 generic starts",
+  "training_loss": 0.00014602711466762657,
+  "heldout_distribution_loss": 0.0001617333278272562,
+  "MMD2_continuous": 0.00026418530002763826,
+  "MMD2_quantized": 0.00027273934171464717,
+  "overflow_mass": 0.024171649610062258,
+  "occupied_bins": 1774,
+  "law_note": "Exact all4096 single-shot atom probabilities; no sampling error.",
+  "metric_coordinates": "(physical coordinate-offset)/scale; both1D supports map to[-5,5],2D unchanged",
+  "coordinate_offset": [
+    0.0,
+    0.0
+  ],
+  "coordinate_scale": [
+    1.0,
+    1.0
+  ],
+  "solver_success": true,
+  "target_sha256": "85488f6148c740b12881f62cba1d7ed9094b2ec92c31527fcb97c8ef37d4200e",
+  "selected_head_sha256": "f2d47dbb3703734a989d121bcc453a89ff8ab72241d8f4d683786936932960f7",
+  "all_restarts": [
+    {
+      "target": "diagonal_cross",
+      "model": "shot_random0",
+      "restart": 0,
+      "initialization": "Generic Gaussian directions; target mean/covariance matching only",
+      "initial_loss": 0.07868136275042349,
+      "final_loss": 0.00014602711466762657,
+      "loss": "sliced W2 squared,32 fixed equally spaced angles",
+      "iterations": 1055,
+      "evaluations": 1062,
+      "solver_success": true,
+      "solver_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "gradient_inf": 7.346275265612083e-08,
+      "seconds": 261.80588006973267,
+      "feature_file": "results/features/D2_shot_random0_4096.npz",
+      "feature_sha256": "d70690d1650c444e6b54fe5cb0809d6897256310303808b916286394a6428e56",
+      "target_sha256": "85488f6148c740b12881f62cba1d7ed9094b2ec92c31527fcb97c8ef37d4200e",
+      "coordinate_offset": [
+        0.0,
+        0.0
+      ],
+      "coordinate_scale": [
+        1.0,
+        1.0
+      ],
+      "metric_coordinates": "(physical coordinate-offset)/scale; both1D supports map to[-5,5],2D unchanged",
+      "source_sha256": "1077db0ef84ec5ab5dbfebc7171ff96eb9209343d215109599e5a1961b327c61"
+    },
+    {
+      "target": "diagonal_cross",
+      "model": "shot_random0",
+      "restart": 1,
+      "initialization": "Generic Gaussian directions; target mean/covariance matching only",
+      "initial_loss": 0.07884229340000576,
+      "final_loss": 0.00024209265512842177,
+      "loss": "sliced W2 squared,32 fixed equally spaced angles",
+      "iterations": 721,
+      "evaluations": 724,
+      "solver_success": true,
+      "solver_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "gradient_inf": 4.701039937284885e-07,
+      "seconds": 162.490891456604,
+      "feature_file": "results/features/D2_shot_random0_4096.npz",
+      "feature_sha256": "d70690d1650c444e6b54fe5cb0809d6897256310303808b916286394a6428e56",
+      "target_sha256": "85488f6148c740b12881f62cba1d7ed9094b2ec92c31527fcb97c8ef37d4200e",
+      "coordinate_offset": [
+        0.0,
+        0.0
+      ],
+      "coordinate_scale": [
+        1.0,
+        1.0
+      ],
+      "metric_coordinates": "(physical coordinate-offset)/scale; both1D supports map to[-5,5],2D unchanged",
+      "source_sha256": "1077db0ef84ec5ab5dbfebc7171ff96eb9209343d215109599e5a1961b327c61"
+    },
+    {
+      "target": "diagonal_cross",
+      "model": "shot_random0",
+      "restart": 2,
+      "initialization": "Generic Gaussian directions; target mean/covariance matching only",
+      "initial_loss": 0.08561417987109929,
+      "final_loss": 0.00020614035065517365,
+      "loss": "sliced W2 squared,32 fixed equally spaced angles",
+      "iterations": 607,
+      "evaluations": 610,
+      "solver_success": true,
+      "solver_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "gradient_inf": 4.231267306349901e-07,
+      "seconds": 126.98430562019348,
+      "feature_file": "results/features/D2_shot_random0_4096.npz",
+      "feature_sha256": "d70690d1650c444e6b54fe5cb0809d6897256310303808b916286394a6428e56",
+      "target_sha256": "85488f6148c740b12881f62cba1d7ed9094b2ec92c31527fcb97c8ef37d4200e",
+      "coordinate_offset": [
+        0.0,
+        0.0
+      ],
+      "coordinate_scale": [
+        1.0,
+        1.0
+      ],
+      "metric_coordinates": "(physical coordinate-offset)/scale; both1D supports map to[-5,5],2D unchanged",
+      "source_sha256": "1077db0ef84ec5ab5dbfebc7171ff96eb9209343d215109599e5a1961b327c61"
+    }
+  ]
+}

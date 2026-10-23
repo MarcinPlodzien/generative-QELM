@@ -1,0 +1,27 @@
+{
+  "targets": [
+    "five_peak",
+    "gamma",
+    "unequal_mixture",
+    "two_rings",
+    "two_moons",
+    "diagonal_cross",
+    "three_stripes",
+    "four_lobes"
+  ],
+  "model": "shot_cluster",
+  "N": 12,
+  "M": 298,
+  "circuit": "CZ on nearest neighbours(0,1)..(10,11), then H on every qubit; exactly the existing expectation_cluster reservoir",
+  "weights": "Exact integrated bitstring law over4096 strings; D1 and D2 encodings",
+  "head_seeds": [
+    12000,
+    12001,
+    12002
+  ],
+  "maxiter_1d": 2200,
+  "maxiter_2d": 1600,
+  "loss": "W2 squared in1D;32-direction sliced W2 squared in2D",
+  "selection": "minimum training loss",
+  "workers": 4
+}

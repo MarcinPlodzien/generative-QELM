@@ -1,0 +1,45 @@
+{
+  "target": "two_rings",
+  "N": 12,
+  "node_count": 4096,
+  "coordinate_offset": [
+    0.0,
+    0.0
+  ],
+  "coordinate_scale": [
+    1.0,
+    1.0
+  ],
+  "convention": "normalized density at fixed nodes; nearest-node assignment, midpoint ties upward",
+  "original_training_target_sha256": "85488f6148c740b12881f62cba1d7ed9094b2ec92c31527fcb97c8ef37d4200e",
+  "current_target_sha256": "6d171c5c50b57ce2a76450b33bceeaed41764e1fc070de99c1b2c3e4a8f3efdd",
+  "coordinates_sha256": "aa7ba94166b5496912c477d116175ac204ca86a0a80abb65034ebcdfb758091e",
+  "probabilities_sha256": "85597a2b1b4c6f3bad3d6643e1287daddf4337838e1c7f4f7b264ccfa14a0175",
+  "definition": {
+    "N": 12,
+    "shape": [
+      64,
+      64
+    ],
+    "bounds": [
+      [
+        -3,
+        3
+      ],
+      [
+        -3,
+        3
+      ]
+    ],
+    "ordering": "C order; index=m_u*64+m_v, MSB first",
+    "definition": "Normalized density evaluated at nodes using manuscript continuous geometry",
+    "source_builder": "rings"
+  },
+  "geometry": {
+    "radii": [
+      1.0,
+      2.3
+    ],
+    "ridge_width": 0.26
+  }
+}

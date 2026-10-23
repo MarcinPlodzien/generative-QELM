@@ -1,0 +1,26 @@
+{
+  "target": "five_peak",
+  "model": "shot_random2",
+  "restart": 0,
+  "initialization": "Generic Gaussian directions; target mean/covariance matching only",
+  "initial_loss": 0.27819779858680516,
+  "final_loss": 0.0006867676348935692,
+  "loss": "exact discrete W2 squared",
+  "iterations": 293,
+  "evaluations": 296,
+  "solver_success": true,
+  "solver_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+  "gradient_inf": 6.139635275616268e-08,
+  "seconds": 1.1146855354309082,
+  "feature_file": "results/features/D1_shot_random2_4096.npz",
+  "feature_sha256": "53933386368e6449a6083535f00851d4fb241f3e2ddc33ea66a375f46f599909",
+  "target_sha256": "85488f6148c740b12881f62cba1d7ed9094b2ec92c31527fcb97c8ef37d4200e",
+  "coordinate_offset": [
+    2047.5
+  ],
+  "coordinate_scale": [
+    409.5
+  ],
+  "metric_coordinates": "(physical coordinate-offset)/scale; both1D supports map to[-5,5],2D unchanged",
+  "source_sha256": "1077db0ef84ec5ab5dbfebc7171ff96eb9209343d215109599e5a1961b327c61"
+}
