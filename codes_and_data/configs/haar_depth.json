@@ -36,5 +36,5 @@
   "maxiter": 2200,
   "blas_threads": 1,
   "max_workers": 4,
-  "figure": "manuscript_v2/figures/fig04_haar_depth.png"
+  "figure": "figures/fig04_haar_depth.png"
 }

@@ -1,7 +1,7 @@
 """Shared conventions for the paper figures: fonts, colors, data access.
 
 Every make_fig*.py script imports this module, reads saved results only (no
-training), and writes one PNG into manuscript_v2/figures/.
+training), and writes one PNG into figures/.
 """
 import json
 import sys
@@ -15,7 +15,7 @@ from matplotlib.colors import LinearSegmentedColormap, PowerNorm
 
 CODE = Path(__file__).resolve().parents[1]
 ROOT = CODE.parent
-DEST = ROOT/'manuscript_v2/figures'
+DEST = ROOT/'figures'
 sys.path.insert(0, str(CODE))
 from qgen.data import target, result_folder, TARGETS_1D, TARGETS_2D  # noqa: E402
 

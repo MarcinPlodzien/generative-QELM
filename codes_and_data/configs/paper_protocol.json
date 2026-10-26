@@ -86,7 +86,7 @@
     4
   ],
   "default_workers": 4,
-  "figures": "manuscript_v2/figures; PNG only",
+  "figures": "figures; PNG only",
   "additional_target_protocols": [
     "configs/narrow_broad.json",
     "configs/unequal_mixture.json"

@@ -35,10 +35,10 @@ obtained exactly by Pauli propagation.
 | `codes_and_data/targets/` | target distributions on the grid, with their definitions |
 | `codes_and_data/results/` | trained heads and evaluated output distributions |
 | `codes_and_data/evaluation/` | MMD² and related metrics; `summary.csv` holds every number quoted in the paper |
-| `codes_and_data/figures/` | one script per data figure, writing to `manuscript_v2/figures/` |
+| `codes_and_data/figures/` | one script per figure, writing to `figures/` |
 | `codes_and_data/tests/` | independent validation of the propagation, weights, losses and output labels |
 | `codes_and_data/cache/` | the two-qubit Clifford group used to draw the random circuits |
-| `manuscript_v2/figures/` | the data figures of the paper |
+| `figures/` | the figures of the paper; Fig. 1 also as TikZ source |
 
 ## Requirements
 
@@ -51,6 +51,7 @@ random streams of SciPy may differ between versions.
 From the repository root, to redraw the figures from the stored results:
 
 ```bash
+bash codes_and_data/figures/make_fig01_protocol.sh
 python -B codes_and_data/figures/make_fig02_gallery_1d.py
 python -B codes_and_data/figures/make_fig03_gallery_2d.py
 python -B codes_and_data/figures/make_fig04_haar_depth.py
